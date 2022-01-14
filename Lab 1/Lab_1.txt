@@ -1,0 +1,24 @@
+Question 1: What is your GitHub URL?
+Answer: https://github.com/nasif92
+
+Question 2: What version is the requests library installed on the system?
+Answer: 2.26
+
+Question 3: What version is the requests library installed in the virtualenv?
+Answer: 2.27.1
+
+Question 4: What is the difference between the virtual environment and the not virtual environment python?
+Answer: It seems that there is a difference between the request library versions. The virtual environment is by itself an individual environment having its own dependencies and libraries. The not virtual environment of python uses the dependencies and libraries of the used machine.
+
+Question 5: What status code is returned for http://google.com ? What URL must you visit to get a 200 status code?
+Answer: The status code 301 is returned for the http://google.com. 301 Moved permanently is returned for adding -i. 
+For getting the 200 status, the URL should be changed to http://www.google.com
+
+Question 6: What status code is returned for http://google.com/teapot? Is it the one returned by curl -i or curl -iL? What happens when you curl http://www.google.com/teapot?
+Answer: For http://google.com/teapot the status code returned by curl is 301 Moved. Using curl -i returns 301 Moved Permanently. For curl -iL, there is the 301 Moved Permanently status code along with the along with the HTTP 418 I'm a teapot client error response code.
+When doing curl http://www.google.com/teapot returns the HTTP 418 I'm a teapot client error response code.
+  
+Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
+Answer: When using -X POST, the server takes my input "X=Y" and responds with an HTML format output. It seems that there are values in the Form Contents section (X,Y). It is different from the default GET request when using curl in the url which shows "no form fields" in the Form Contents section. 
+
+Question 8: What is the raw URL to your Python script on GitHub?
