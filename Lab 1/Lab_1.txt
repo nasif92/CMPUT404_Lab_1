@@ -20,6 +20,7 @@ When doing curl http://www.google.com/teapot returns the HTTP 418 I'm a teapot c
   
 Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
 Answer: When using -X POST, the server takes my input "X=Y" and responds with an HTML format output. It seems that there are values in the Form Contents section (X,Y). It is different from the default GET request when using curl in the url which shows "no form fields" in the Form Contents section. 
+This method is going to be useful for providing inputs in web applications running in the webserver if we want to get information out of the server. 
 
 Question 8: What is the raw URL to your Python script on GitHub?
 Answer: The raw URL to my Python Script: https://raw.githubusercontent.com/nasif92/CMPUT404_Lab_1/master/Lab%201/lab1.py
