@@ -2,13 +2,13 @@ Question 1: What is your GitHub URL?
 Answer: https://github.com/nasif92
 
 Question 2: What version is the requests library installed on the system?
-Answer: 2.26
+Answer: 2.27.1
 
 Question 3: What version is the requests library installed in the virtualenv?
 Answer: 2.27.1
 
 Question 4: What is the difference between the virtual environment and the not virtual environment python?
-Answer: It seems that there is a difference between the request library versions. The virtual environment is by itself an individual environment having its own dependencies and libraries. The not virtual environment of python uses the dependencies and libraries of the used machine.
+Answer: It seems that there is no difference between the request library versions. The virtual environment is by itself an individual environment having its own dependencies and libraries. The not virtual environment of python uses the dependencies and libraries of the used machine.
 
 Question 5: What status code is returned for http://google.com ? What URL must you visit to get a 200 status code?
 Answer: The status code 301 is returned for the http://google.com. 301 Moved permanently is returned for adding -i. 
@@ -22,3 +22,4 @@ Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle
 Answer: When using -X POST, the server takes my input "X=Y" and responds with an HTML format output. It seems that there are values in the Form Contents section (X,Y). It is different from the default GET request when using curl in the url which shows "no form fields" in the Form Contents section. 
 
 Question 8: What is the raw URL to your Python script on GitHub?
+Answer: The raw URL to my Python Script: https://raw.githubusercontent.com/nasif92/CMPUT404_Lab_1/master/Lab%201/lab1.py
